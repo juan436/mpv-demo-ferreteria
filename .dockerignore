@@ -1,0 +1,21 @@
+# Node/Next.js
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
+.next
+out
+.next/cache
+.vercel
+# Local env files
+.env*
+# Editor
+.vscode
+.idea
+# OS
+.DS_Store
+Thumbs.db
+# Backend workspace (ignored)
+nest-backend/

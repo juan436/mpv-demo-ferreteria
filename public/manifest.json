@@ -1,0 +1,46 @@
+{
+  "name": "Ferreteria",
+  "short_name": "Ferreteria",
+  "description": "Sistema de gestión de pedidos y proveedores para Ferreterias",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Nuevo Pedido",
+      "short_name": "Pedido",
+      "description": "Crear un nuevo pedido",
+      "url": "/?section=orders",
+      "icons": [{ "src": "/favicon/web-app-manifest-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Proveedores",
+      "short_name": "Proveedores",
+      "description": "Ver lista de proveedores",
+      "url": "/?section=providers",
+      "icons": [{ "src": "/favicon/web-app-manifest-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
