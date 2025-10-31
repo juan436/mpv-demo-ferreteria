@@ -72,6 +72,11 @@ Ejecutar contenedor:
 docker run -p 3000:3000 ferreteria-frontend
 ```
 
+## 📄 URL REPOSITORIO BACKEND
+```
+https://github.com/juan436/api-demo-ferreteria 
+```
+
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia Apache 2.0. Cualquier modificación o uso debe preservar el aviso de copyright original:
